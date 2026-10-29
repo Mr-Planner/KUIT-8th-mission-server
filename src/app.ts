@@ -1,8 +1,8 @@
 import { randomUUID } from "node:crypto";
 import cors from "cors";
 import express from "express";
-import stores from "./data/stores";
-import type { CreateOrderRequest } from "./types/stores";
+import stores from "./data/stores.js";
+import type { CreateOrderRequest } from "./types/stores.js";
 
 const app = express();
 
